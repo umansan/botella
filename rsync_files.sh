@@ -7,7 +7,7 @@ rsync -r /odoo_ar/odoo-12.0e/botella/sources/aeroo_reports ./ --exclude=.git --e
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/argentina-sale ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/management-system ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/manufacture ./ --exclude=.git --exclude=setup/
-#rsync -r /odoo_ar/odoo-12.0e/botella/sources/miscellaneous ./ --exclude=.git --exclude=setup/
+rsync -r /odoo_ar/odoo-12.0e/botella/sources/miscellaneous ./ --exclude=.git --exclude=setup/
 rsync -r /odoo_ar/odoo-12.0e/botella/sources/odoo-argentina ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/odoo-support ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/partner-contact ./ --exclude=.git --exclude=setup/
