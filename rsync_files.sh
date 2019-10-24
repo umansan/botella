@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# copia los repositorios de la instalacion local que se construyen con oe
+# elimina el .git porque sino los toma como submodules
+
 rsync -r /odoo_ar/odoo-12.0e/botella/sources/account-financial-tools ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/account-invoicing ./ --exclude=.git --exclude=setup/
 rsync -r /odoo_ar/odoo-12.0e/botella/sources/account-payment ./ --exclude=.git --exclude=setup/
