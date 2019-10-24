@@ -21,4 +21,4 @@ rsync -r /odoo_ar/odoo-12.0e/botella/sources/odoo-argentina ./ --exclude=.git --
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/social ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/stock ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/stock-logistics-warehouse ./ --exclude=.git --exclude=setup/
-#rsync -r /odoo_ar/odoo-12.0e/botella/sources/web ./ --exclude=.git --exclude=setup/
+rsync -r /odoo_ar/odoo-12.0e/botella/sources/web ./ --exclude=.git --exclude=setup/
