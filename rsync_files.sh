@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#rsync -r /odoo_ar/odoo-12.0e/botella/sources/account-financial-tools ./ --exclude=.git --exclude=setup/
+rsync -r /odoo_ar/odoo-12.0e/botella/sources/account-financial-tools ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/account-invoicing ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/account-payment ./ --exclude=.git --exclude=setup/
 #rsync -r /odoo_ar/odoo-12.0e/botella/sources/aeroo_reports ./ --exclude=.git --exclude=setup/
